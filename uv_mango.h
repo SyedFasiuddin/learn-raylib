@@ -17,7 +17,7 @@ void uv_mango(void);
 void uv_mango(void) {
     Color bg = { .r = 0x18, .g = 0x18, .b = 0x18, .a = 0xFF };
 
-    InitWindow(WIDTH, HEIGHT, "Hello World raylib");
+    InitWindow(WIDTH, HEIGHT, "UV Mango");
     Shader shader = LoadShader(NULL, "uv_mango.fs");
     Texture2D texture = { rlGetTextureIdDefault(), 1, 1, 1, PIXELFORMAT_UNCOMPRESSED_R8G8B8A8 };
     // Instead of flipping the y-axis, adjust the center and rotate the rectangle
