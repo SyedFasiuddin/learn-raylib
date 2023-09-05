@@ -1,4 +1,3 @@
-```
 Include the example that you want in `main.c' as follows:
   #define UV_MANGO_IMPL // {header name}_IMPL
   #include "uv_mango.h"
@@ -10,4 +9,3 @@ Run `build.sh' to build the example
 
 Dependencies:
 - raylib (tested with v4.5) `brew install raylib'
-```
